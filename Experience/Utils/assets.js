@@ -2,7 +2,7 @@ export default [
   {
     name: "IsoRoom",
     type: "glbModel",
-    path: "/models/IsometricRoom16.glb",
+    path: "/models/IsometricRoom20.glb",
   },
   {
     name: "Screen",

@@ -595,6 +595,15 @@ a {
  
 }
 
+@media screen and (max-width: 768px) {
+  .hero-main-image {
+    width: 80%;
+    height: auto;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+}
 
 .hero-second p {
   font-size: calc(100% + 1.4vw);

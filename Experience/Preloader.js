@@ -31,10 +31,8 @@ export default class Preloader extends EventEmitter {
     convert(document.querySelector(".intro-text"));
     convert(document.querySelector(".hero-main-title"));
     convert(document.querySelector(".hero-main-description"));
-    convert(document.querySelector(".hero-main-image"));
     convert(document.querySelector(".hero-second-subheading"));
     convert(document.querySelector(".hero-second-description"));
-  
     this.room = this.experience.world.room.actualRoom;
     this.roomChildren = this.experience.world.room.roomChildren;
     console.log(this.roomChildren);
@@ -114,7 +112,6 @@ export default class Preloader extends EventEmitter {
   secondIntro() {
     return new Promise((resolve) => {
       this.secondTimeline = new GSAP.timeline();
-   
 
       this.secondTimeline
         .to(
@@ -135,11 +132,7 @@ export default class Preloader extends EventEmitter {
             opacity: 0,
           },
           "fadeout"
-        )     .to(".hero-main-image .animate", {
-          yPercent: 0,
-          stagger: 0.03,
-          ease: "back.out(1.7)",
-        }, "hero-text")
+        )
         .to(
           ".hero-main-title .animate",
           {

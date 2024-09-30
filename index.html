@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/dcee5ef514.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dhafer's Portfolio</title>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+      <div class="asscrollbar">
+        <div class="asscrollbar__handle"><div></div></div>
+      </div>
+
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm283-100q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z"
+            />
+          </svg>
+        </div>
+
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+
+        <div class="moon-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
+            <div class="intro-text">Welcome to my THREE.js portfolio!</div>
+
+            <div class="arrow-wrapper">
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg> -->
+              <div class="chevrons">
+                <div class="chevrondown"></div>
+                <div class="chevrondown"></div>
+              </div>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">Dhafer</h1>
+              <p class="hero-main-description">
+                Software Engineering Architecture Student | Aspiring Developer
+              </p>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading">MY </p>
+              <p class="hero-second-description">P.O.RT.F.OL.I.O</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Introduction</span>
+              <div class="section-title-decoration style1"></div>
+              <div class="section-title-decoration style2"></div>
+              <div class="section-title-decoration style3"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">About this project</h3>
+            <p class="section-text">
+               Working on this endeavor allowed me to explore various
+              facets of Three.js
+            </p>
+            
+            <h3 class="section-heading">About Me</h3>
+            <p class="section-text">
+              Hello, I'm Dhafer, I grew up in Tunisia and is currently studying
+              for a Master's Degree in Software Architecture . I have experience in many
+              programming languages such as C,C++, Java, Python,Typescript,JavaScript And Various Frameworks Angular,Spring boot,React,Django..
+              <br />
+              I also have a keen interest in visual designs, 3D arts and
+              rendering. I am also currently learning Blender to further enhance
+              my design capabilities. I hope I can put my skills to good use.
+            </p>
+            <button class="section-button">
+              <a href="/others/DhaferSouidCv.pdf" target="_blank">My resume →</a>
+            </button>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Projects</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <p class="section-text">
+              Currently I am still studying, hence I will list some notable
+              course work here. I hope I am able to add more personal projects
+              here in the near future!
+            </p>
+            <h3 class="section-heading">Job fair And Exposition Website : 4th year in Esprit</h3>
+            <p class="section-text">
+              This is One Of the most important Academic Project when studying in Esprit university ,
+              As a part of my team my mission was to create an interface for booths reservations in A 2D plan Along with Taking care 
+              of Suppliers module for each booth , I was able to achieve this and build this inside a microservice architecture 
+              All of this was done using Angular and Spring boot frameworks ,For a bonus we managed to use Python for different needs ,my objective was 
+              to create an algorithm that predicts which booths are likely going to be reserved .This project took a place a whole semester
+            </p>
+            <button class="section-button">
+              <a
+                href="https://github.com/Dhafer99/DevXpertsProject"
+                target="_blank"
+                >Github repo →</a
+              >
+            </button>
+            <h3 class="section-heading">Freecycle website : 3rd year in Esprit </h3>
+            <p class="section-text">
+             As a part a team , we managed to create web site using Symfony and a Desktop application using Javafx and a mobile application using codenameone and the global
+             was to allow users to exchange or giveaway unwanted or unused objects these applications share the same database.My specific mission was to handle user management
+             Along with the whole project integration
+            </p>
+            <button class="section-button">
+              <a
+                href="https://github.com/Dhafer99/SymfonyProject"
+                target="_blank"
+                >Github symfony repo →</a
+              >
+            </button>
+            <button class="section-button">
+              <a
+                href="https://github.com/Dhafer99/JavaFxSustainableDevelopment/tree/integration_java"
+                target="_blank"
+                >Github javafx repo →</a
+              >
+            </button>
+            <h3 class="section-heading">Real estate desktop application : 2nd year</h3>
+            <p class="section-text">
+              We made a Desktop application using c++ to create a desktop application for a real estate agency to handle buyers,sellers and properties along with bonuses like a todo list 
+              , statistics and other functionalities .My mission was Handling Property management
+            </p>
+            <button class="section-button">
+              <a
+                href="https://github.com/Armi64bit/Smart_Real_Estate_Agency_2A8/tree/master"
+                target="_blank"
+                >Github repo →</a
+              >
+            </button>
+          </div>
+        <!--   <h3 class="section-heading">A 2d video game : 1st year</h3>
+          <p class="section-text">
+            As a part of a team , i handled character movements,Enemies,minimap,player health and animation .Our mission was to create a 2d action game and it was inspired from 
+            the game DMC .This game was developed using C with SDL library .
+          </p>
+          <button class="section-button">
+            <a
+              href="https://drive.google.com/file/d/1sPVrbtlNP215Hn-8Ug5Vq9McLJ5Rr3JW/view"
+              target="_blank"
+              >Github repo →</a
+            >
+          </button>
+        </div> -->
+
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text green-text">Next Step</span>
+              <div class="section-title-decoration style1 green-border"></div>
+              <div class="section-title-decoration style2 green-border"></div>
+              <div
+                class="section-title-decoration style3 green-background green-border"
+              ></div>
+            </h1>
+            <span class="section-number green-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Next step...</h3>
+            <p class="section-text">
+              Through this project, I had the chance to sharpen my skills in CSS and JavaScript. 
+              I concentrated on using global variables in CSS to make my code more efficient and experimented with creating basic animations using keyframes. 
+              Additionally, I explored object-oriented JavaScript, applying the Singleton design pattern to enhance organization and efficiency.
+            </p>
+           
+          </div>
+        </section>
+
+        <div class="fourth-move section-margin"></div>
+
+        <section class="fourth-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Contact Me</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">04</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Contact Me</h3>
+            <p class="section-text">
+              Feel free to explore my repositories and get in touch. I'm always eager to learn and grow as a developer, and I welcome new opportunities for collaboration.
+            </p>
+            <ul class="contact-button-wrapper">
+              <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span
+                  ><a href="https://github.com/Dhafer99" target="_blank"
+                    ><i class="fa-brands fa-github"></i></a
+                ></span>
+              </li>
+              <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span
+                  ><a
+                    href="https://www.linkedin.com/in/dhafer-souid-46b88b11b/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                ></span>
+              </li>
+              <li class="icon gmail">
+                <span class="tooltip">Email: dhafer.souid@esprit.tn</span>
+                <span
+                  ><a href="mailto:dhafer.souid@esprit.tn" target="_blank"
+                    ><i class="fa-regular fa-envelope"></i></a
+                ></span>
+              </li>
+            </ul>
+
+            <h3 class="section-heading">Acknowledgement</h3>
+            <p class="section-text">
+              Credits to <b>oscar</b>'s website which I drew inspiration from
+            </p>
+        
+          
+           
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

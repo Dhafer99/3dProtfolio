@@ -189,7 +189,38 @@ export default class Controls {
           },
           "same"
         );
+          // fifth
+          this.fifthMoveTimeline = new GSAP.timeline({
+        scrollTrigger: {
+          trigger: ".fifth-move",
+          start: "top top",
+          end: "bottom bottom",
+          scrub: 0.5,
+          invalidateOnRefresh: true,
+        },
+      })
+        .to(
+          this.camera.orthographicCamera.position,
+          {
+            x: -2.5,
+            y: 0,
+            z: 15,
+          },
+          "same"
+        )
+        .to(
+          this.room.scale,
+          {
+            x: 3,
+            y: 3,
+            z: 3,
+          },
+          "same"
+        );
+
+
     });
+    
 
     // Mobile --------------------------------
     mm.add("(max-width: 968px)", () => {

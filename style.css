@@ -586,6 +586,15 @@ a {
   font-size: calc(100% + 0.15vw);
   color: var(--color-text);
 }
+.hero-main-image{
+ 
+  height:300px;
+  width:250px;
+ position: relative;
+ border-radius: 5px;
+ 
+}
+
 
 .hero-second p {
   font-size: calc(100% + 1.4vw);
